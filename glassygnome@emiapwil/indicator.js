@@ -26,7 +26,7 @@ function Indicator() {
         }
 
         label = new St.Label({
-            text: 'G',
+            text: 'G:100%',
             style_class: 'glassygnome-indicator',
             y_align: Clutter.ActorAlign.CENTER
         });
@@ -50,7 +50,7 @@ function Indicator() {
 
     function set_opacity(opacity) {
         if (label) {
-            label.set_opacity(opacity);
+            label.text = 'G:' + Math.round(opacity / 2.55) + '%';
         }
     }
 

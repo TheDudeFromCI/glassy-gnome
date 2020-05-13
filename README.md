@@ -2,6 +2,10 @@
 
 A gnome-shell extension to enable window transparency.
 
+#### Fork Details
+
+This fork of the extension simply tweaks the indicator to display as percentage text rather than changing the opacity.
+
 # Installation
 
 ## Copy the extension to the extension folder manually
